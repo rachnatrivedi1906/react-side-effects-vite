@@ -29,3 +29,10 @@ Before you start building out the application, examine the current code and comp
 - Manage component state using the `useState` hook.
 - Keep components modular and reusable.
 - Remove unnecessary console logs and commented-out code before submission.
+
+## Usage Guide
+
+1. **Initial Load**: When you open the application, a random programming joke will automatically be fetched from the Joke API and displayed. While fetching, a "Loading..." message will be visible.
+2. **Fetch New Joke**: Click the **"Get a New Joke"** button. This will trigger a new fetch call to replace the current joke with a new one.
+3. **Error Handling**: If the API call fails, an error message is displayed on screen instead of crashing the application.
+
